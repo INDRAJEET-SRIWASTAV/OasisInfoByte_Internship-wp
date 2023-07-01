@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+
+  .hero {
+    background-image: url('orvba.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+
+    margin-top: 20px;
+    color: black;
+    text-shadow: 2px 2px white;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 30px;
+
+    color: black;
+    text-shadow: 2px 2px white;
+  }
+  
+  .cta-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .pricing {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .plan {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .plan h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="Meet.jpg.jpg" alt="My Image">
+      <h1>Meet Patel</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a Computer Engineer. I am currently pursuing B.Tech degree from Parul University. </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <img src="ss.login1.jpg" alt="Project 1">
+          <h3>On Road Vehicle Breakdown App :-</h3>
+          <p>On Road Vehicle Breakdown App is a simple app for provide fast service and provide mechanics easily and quickly.  </p>
+        </div>
+        <div class="project">
+          <img src="p2.png" alt="Project 2">
+          <h3>Tindog Website :-</h3>
+          <p>Tindog is a simple website to meet new and interesting dogs nearby you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2021 Meet Patel</p>
+    </div>
+  </footer>
+</body>
+</html>
